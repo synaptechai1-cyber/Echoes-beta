@@ -5,7 +5,7 @@ pages_build_output_dir = "dist"
 [[d1_databases]]
 binding = "DB"
 database_name = "echoes-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "90553ad1-8008-4c61-9210-7314b0a6730f"
 
 # R2 is not yet connected (billing/card pending) — the app runs in test
 # mode without it, storing short audio clips directly in D1 instead.
@@ -16,7 +16,7 @@ database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
 
 [vars]
 ENVIRONMENT = "test"
-CLERK_JWKS_URL = "https://REPLACE_WITH_YOUR_CLERK_DOMAIN/.well-known/jwks.json"
+CLERK_JWKS_URL = "https://regular-feline-15.clerk.accounts.dev/.well-known/jwks.json"
 # R2_PUBLIC_BASE_URL is not needed until R2 is connected — uncomment and set
 # this once you activate R2:
 # R2_PUBLIC_BASE_URL = "https://REPLACE_WITH_YOUR_R2_PUBLIC_DOMAIN"
