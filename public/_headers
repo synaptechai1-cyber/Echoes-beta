@@ -1,6 +1,0 @@
-# No COOP/COEP headers — these break Clerk's cross-origin token fetching.
-# Echoes Vision AI will use a fallback path that doesn't require SharedArrayBuffer.
-/*
-  X-Content-Type-Options: nosniff
-  X-Frame-Options: DENY
-  Referrer-Policy: strict-origin-when-cross-origin
